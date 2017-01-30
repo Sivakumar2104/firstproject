@@ -7,6 +7,10 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
+  <properties>
+  <project.scm.id>my-scm-server<project.scm.id>
+</properties>
+
   <scm>
     <developerConnection>scm:git:https://github.com/Sivakumar2104/firstproject.git</developerConnection>
     <tag>my-app-1.2</tag>
@@ -28,7 +32,7 @@
         <name>snapshots</name>
         <url>http://localhost:9081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-	    <repository>
+	<repository>
         <id>central</id>
         <name>releases</name>
         <url>http://localhost:9081/artifactory/libs-release-local</url>
