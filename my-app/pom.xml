@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
@@ -26,7 +26,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        <url>http://localhost:9081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 	    <repository>
         <id>central</id>
