@@ -25,9 +25,14 @@
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>LAPTOP-4D789RVH-snapshots</name>
+        <name>snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
+	    <repository>
+        <id>central</id>
+        <name>releases</name>
+        <url>http://localhost:9081/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
 
 </project>
