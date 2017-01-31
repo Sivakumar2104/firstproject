@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>3.16-SNAPSHOT</version>
+  <version>3.17-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
@@ -24,6 +24,31 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+	<plugins>
+         <plugin>
+         <artifactId>maven-release-plugin</artifactId>
+         <version>2.4.1</version>
+         <configuration>
+           <releaseProfiles>release</releaseProfiles>
+           <goals>install animal-sniffer:check deploy site</goals>
+         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-api</artifactId>
+            <version>1.8.1</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-gitexe</artifactId>
+            <version>1.8.1</version>
+          </dependency>
+        </dependencies>
+       </plugin>
+	</plugins>
+</build>
   
 <distributionManagement>
     <snapshotRepository>
