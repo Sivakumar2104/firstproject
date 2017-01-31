@@ -13,7 +13,6 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/Sivakumar2104/firstproject.git</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   
   <dependencies>
