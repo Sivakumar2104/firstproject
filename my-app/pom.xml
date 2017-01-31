@@ -3,7 +3,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>3.17-SNAPSHOT</version>
+  <version>3.18-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
@@ -16,14 +16,6 @@
     <tag>HEAD</tag>
   </scm>
   
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
   
   <build>
 	<plugins>
@@ -38,17 +30,27 @@
           <dependency>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-api</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.2</version>
           </dependency>
           <dependency>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-provider-gitexe</artifactId>
-            <version>1.8.1</version>
+            <version>1.9.2</version>
           </dependency>
         </dependencies>
        </plugin>
 	</plugins>
 </build>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
   
 <distributionManagement>
     <snapshotRepository>
