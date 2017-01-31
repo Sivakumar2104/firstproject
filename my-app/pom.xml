@@ -25,6 +25,22 @@
     </dependency>
   </dependencies>
   
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-scm-plugin</artifactId>
+        <version>1.9.5</version>
+		
+        <configuration>
+          <connectionType>developerConnection</connectionType>
+		  <pushChanges>true</pushChanges>
+		  <message>SCM Checkin</message>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
