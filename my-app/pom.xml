@@ -56,12 +56,12 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>snapshots</name>
-        <url>http://localhost:9081/artifactory/libs-snapshot-local</url>
+        <url>http://dlg77app:8081/artifactory/lib-snapshot-local</url>
     </snapshotRepository>
-	<repository>
+    <repository>
         <id>central</id>
         <name>central</name>
-        <url>http://localhost:9081/artifactory/libs-release-local</url>
+        <url>http://dlg77app:8081/artifactory/lib-release-local</url>
     </repository>
 </distributionManagement>
 	
