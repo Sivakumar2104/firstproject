@@ -7,9 +7,9 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   
-  <properties>
+  <!-- <properties>
   <project.scm.id>my-scm-server</project.scm.id>
-</properties>
+</properties> -->
 
   <scm>
     <developerConnection>scm:git:ssh://git@git-siva/Sivakumar2104/firstproject.git</developerConnection>
