@@ -12,7 +12,7 @@
 </properties>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/Sivakumar2104/firstproject.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@git-siva/Sivakumar2104/firstproject.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   
